@@ -3,6 +3,8 @@
 html, body {
     font-family: 'Raleway', sans-serif;
     color: $color-black;
+
+    @include transition($transition-hero);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,4 +26,8 @@ a {
 hr {
     border: 0;
     border-bottom: 1px solid $color-gray-dark;
+}
+
+p, code, hr {
+    @include transition($transition-hero);
 }

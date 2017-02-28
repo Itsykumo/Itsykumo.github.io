@@ -2,8 +2,25 @@
 ---
 
 @import "variables";
+@import "mixins";
 @import "base";
 @import "about";
+
+.body-hover {
+    background: $color-black;
+
+    p, code {
+        color: $color-black !important;
+    }
+
+    code {
+        background: unset;
+    }
+
+    hr {
+        border-color: $color-black;
+    }
+}
 
 #particles-js {
     position: fixed;
@@ -19,8 +36,8 @@
 
     a.logo {
         display: block;
-        margin: auto;
-        width: 40px;
+        margin: 60% 40%;
+        width: 120px;
         border-bottom: none;
     }
 }
@@ -30,8 +47,8 @@
 
     a.logo {
         display: block;
-        margin: auto;
-        width: 40px;
+        margin-left: 30%;
+        width: 120px;
         border-bottom: none;
     }
 }
