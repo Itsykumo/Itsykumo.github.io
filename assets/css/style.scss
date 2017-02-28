@@ -46,10 +46,18 @@
     margin-top: $margin-top;
 
     a.logo {
-        display: block;
-        margin-left: 30%;
-        width: 120px;
         border-bottom: none;
+
+        img {
+            width: 180px;
+        }
+
+        &.logo-park {
+            img {
+                position: fixed;
+                top: 0;
+            }
+        }
     }
 }
 
