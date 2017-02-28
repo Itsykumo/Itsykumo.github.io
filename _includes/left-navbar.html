@@ -1,0 +1,39 @@
+<div id='left-navbar'>
+  <a class='logo' href='{{ site.baseurl }}/'>
+    <img src='/assets/img/logo_extended.svg' alt='{{ site.title }}' />
+  </a>
+
+  <ul class='list-unstyled'>
+    <li><strong>{{ site.name }}</strong></li>
+    <li>{{ site.location }}</li>
+    <li>
+      <a href='mailto:{{ site.email }}'>{{ site.email }}</a>
+    </li>
+    <li>&nbsp;</li>
+    <li> 
+      <a href='https://github.com/{{ site.author.github }}' target='_blank'>
+      </a>
+    </li>
+    {% if site.github %}
+    <li>
+      <a href='https://github.com/{{ site.github }}' target='_blank'>
+        <i class='fa fa-github fa-fw'></i>
+        Github
+      </a>
+    </li>
+    {% endif %}
+    {% if site.twitter %}
+    <li>
+      <a href='https://twitter.com/{{ site.twitter }}' target='_blank'>
+        <i class='fa fa-twitter fa-fw'></i> Twitter
+      </a>
+    </li>
+    {% endif %} {% if site.linkedin %}
+    <li>
+      <a href='https://linkedin.com/in/{{ site.linkedin }}' target='_blank'>
+        <i class='fa fa-linkedin fa-fw'></i> Linkedin
+      </a>
+    </li>
+    {% endif %}
+    </ul>
+</div>

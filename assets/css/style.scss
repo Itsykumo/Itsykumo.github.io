@@ -31,19 +31,8 @@
 }
 
 #main-header {
-    background: $color-black-light;
-    padding: 15px 0;
-
-    a.logo {
-        display: block;
-        margin: 60% 40%;
-        width: 120px;
-        border-bottom: none;
-    }
-}
-
-#left-navbar {
-    margin-top: $margin-top;
+    position: fixed;
+    z-index: 1000;
 
     a.logo {
         border-bottom: none;
@@ -51,13 +40,32 @@
         img {
             width: 180px;
         }
+    }
+}
+
+#left-navbar {
+    margin-top: $margin-top;
+
+    a {
+        border-bottom: none;
+    }
+
+    .logo {
+        border-bottom: none;
+
+        img {
+            width: 180px;
+        }
 
         &.logo-park {
-            img {
-                position: fixed;
-                top: 0;
-            }
+            position: fixed;
+            top: 0;
         }
+    }
+
+    ul {
+        margin-top: 38px;
+        color: $color-white;
     }
 }
 

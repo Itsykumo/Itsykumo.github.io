@@ -1,7 +1,9 @@
 $margin-top: 120px;
-$transition-hero: all 1s steps(8, end);
+$transition-hero: all 1s steps(6, end);
 
 $color-hero: #77dd77;
+
+$color-white: #fff;
 
 $color-black: #000;
 $color-black-light: lighten($color-black, 15%);
