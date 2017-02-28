@@ -6,7 +6,7 @@
 @import "about";
 
 #particles-js {
-    position: absolute;
+    position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
@@ -20,7 +20,7 @@
     a.logo {
         display: block;
         margin: auto;
-        width: 20px;
+        width: 40px;
         border-bottom: none;
     }
 }
@@ -31,7 +31,7 @@
     a.logo {
         display: block;
         margin: auto;
-        width: 60px;
+        width: 40px;
         border-bottom: none;
     }
 }
