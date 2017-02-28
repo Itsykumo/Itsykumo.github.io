@@ -1,0 +1,19 @@
+@import "variables";
+
+#about {
+    font-size: 24px;
+    margin-top: $margin-top;
+    margin-bottom: $margin-top - 50px;
+    font-weight: 200;
+
+    .title {
+        font-size: 40px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    .contact-me {
+        margin-top: 20px;
+    }
+}

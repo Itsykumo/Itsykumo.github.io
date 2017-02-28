@@ -1,0 +1,85 @@
+---
+---
+
+@import "variables";
+@import "base";
+@import "about";
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#main-header {
+    background: $color-black-light;
+    padding: 15px 0;
+
+    a.logo {
+        display: block;
+        margin: auto;
+        width: 20px;
+        border-bottom: none;
+    }
+}
+
+#left-navbar {
+    margin-top: $margin-top;
+
+    a.logo {
+        display: block;
+        margin: auto;
+        width: 60px;
+        border-bottom: none;
+    }
+}
+
+.posts {
+
+    .post {
+        padding-top: 24px;
+
+        .bullet {
+            margin-top: 28px;
+            width: 28px;
+        }
+
+        .title {
+            font-size: 40px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+
+            a {
+                border-bottom: none;
+            }
+        }
+
+        .meta {
+            color: $color-gray-dark;
+            margin-bottom: 40px;
+        }
+
+        .excerpt {
+            .read-more-link {
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+#post {
+    margin-top: $margin-top;
+
+    .title {
+        font-size: 48px;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+
+    .meta {
+        color: $color-gray-dark;
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,27 @@
+@import "variables";
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+    color: $color-black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: $color-black;
+    border-bottom: 1px dashed $color-black;
+
+    &:hover, &:active, &:focus {
+        cursor: pointer;
+        color: $color-hero;
+        border-bottom: 1px solid $color-hero;
+        text-decoration: none;
+    }
+}
+
+hr {
+    border: 0;
+    border-bottom: 1px solid $color-gray-dark;
+}
