@@ -1,4 +1,4 @@
-# itsykumo.github.io.src
+# Itsykumo.github.io.src
 
 ## Overview
 
