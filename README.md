@@ -1,6 +1,6 @@
 # Itsykumo.github.io.src
 
-## Overview
+### What is this repository for?
 
 Use as my personal website. Free hosting.
 
@@ -9,7 +9,11 @@ Use as my personal website. Free hosting.
     <dd style='display: inline-block'>https://itsykumo.github.io/</dd>
 </dl>
 
-## Getting Started
+### What is the current state?
+
+Site is running and will be updated when appropriate.
+
+### How do I get set up?
 Install Jekyll and Bundler gems on the development machine through RubyGems.
 ```bash
 gem install jekyll bundler
