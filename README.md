@@ -1,4 +1,4 @@
-# Itsykumo.github.io.src
+# Kasaobake.github.io.src
 
 ### What is this repository for?
 
@@ -6,7 +6,7 @@ Use as my personal website. Free hosting.
 
 <dl>
     <dt style='display: inline-block'><strong>URL</strong></dt>
-    <dd style='display: inline-block'>https://itsykumo.github.io/</dd>
+    <dd style='display: inline-block'>https://kasaobake.github.io/</dd>
 </dl>
 
 ### What is the current state?
@@ -21,7 +21,7 @@ gem install jekyll bundler
 
 Install dependencies
 ```bash
-cd itsykumo.github.io
+cd kasaobake.github.io
 bundle install
 ```
 
