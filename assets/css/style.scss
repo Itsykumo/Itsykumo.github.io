@@ -6,113 +6,15 @@
 @import "base";
 @import "about";
 
-.body-hover {
-    background: $color-black;
-
-    p, code {
-        color: $color-black !important;
-    }
-
-    code {
-        background: unset;
-    }
-
-    hr {
-        border-color: $color-black;
-    }
+#main {
+    min-height: 100vh;
+    // background-color: #3EE8A9;
+    background-color: #42F3B2;
 }
 
-#particles-js {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-#main-header {
-    position: fixed;
-    z-index: 1000;
-
-    a.logo {
-        border-bottom: none;
-
-        img {
-            width: 180px;
-        }
-    }
-}
-
-#left-navbar {
-    margin-top: $margin-top;
-
-    a {
-        border-bottom: none;
-    }
-
-    .logo {
-        border-bottom: none;
-
-        img {
-            width: 180px;
-        }
-
-        &.logo-park {
-            position: fixed;
-            top: 0;
-        }
-    }
-
-    ul {
-        margin-top: 38px;
-        color: $color-white;
-    }
-}
-
-.posts {
-
-    .post {
-        padding-top: 24px;
-
-        .bullet {
-            margin-top: 28px;
-            width: 28px;
-        }
-
-        .title {
-            font-size: 40px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-
-            a {
-                border-bottom: none;
-            }
-        }
-
-        .meta {
-            color: $color-gray-dark;
-            margin-bottom: 40px;
-        }
-
-        .excerpt {
-            .read-more-link {
-                margin-top: 40px;
-            }
-        }
-    }
-}
-
-#post {
-    margin-top: $margin-top;
-
-    .title {
-        font-size: 48px;
-        margin-top: 0;
-        margin-bottom: 10px;
-    }
-
-    .meta {
-        color: $color-gray-dark;
-        margin-bottom: 40px;
-    }
+.inverse-highlight {
+    // background-color: black;
+    // color: white;
+    font-weight: 500;
+    // padding: 2px 8px;
 }

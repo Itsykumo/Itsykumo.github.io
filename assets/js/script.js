@@ -1,43 +1,35 @@
-particlesJS.load('particles-js', '/assets/js/particlesjs-config.json');
+// var lastScroll = 0;
+// var scrollUpDistance = 0;
+// var scrollDownDistance = 0;
 
-$('.logo').mouseover(function () {
-  $('body').addClass('body-hover');
-}).mouseout(function () {
-  $('body').removeClass('body-hover');
-});
+// $(document).scroll(function (e) {
+//   var currentScroll = $(document).scrollTop();
 
-var lastScroll = 0;
-var scrollUpDistance = 0;
-var scrollDownDistance = 0;
+//   if (currentScroll >= 120) {
+//     $('#left-navbar > .logo').addClass('logo-park');
+//   } else {
+//     $('#left-navbar > .logo').removeClass('logo-park');
+//   }
 
-$(document).scroll(function (e) {
-  var currentScroll = $(document).scrollTop();
+//   if (currentScroll < lastScroll) {
+//     scrollUpDistance += (lastScroll - currentScroll);
 
-  if (currentScroll >= 120) {
-    $('#left-navbar > .logo').addClass('logo-park');
-  } else {
-    $('#left-navbar > .logo').removeClass('logo-park');
-  }
+//     if (scrollUpDistance >= 200) {
+//       scrollDownDistance = 0;
+//     }
+//   } else {
+//     scrollDownDistance += (currentScroll - lastScroll);
 
-  if (currentScroll < lastScroll) {
-    scrollUpDistance += (lastScroll - currentScroll);
+//     if (scrollDownDistance >= 200) {
+//       scrollUpDistance = 0;
+//     }
+//   }
 
-    if (scrollUpDistance >= 200) {
-      scrollDownDistance = 0;
-    }
-  } else {
-    scrollDownDistance += (currentScroll - lastScroll);
+//   lastScroll = currentScroll;
 
-    if (scrollDownDistance >= 200) {
-      scrollUpDistance = 0;
-    }
-  }
-
-  lastScroll = currentScroll;
-
-  if (scrollDownDistance >= 200 && currentScroll > 100) {
-    $('#main-header .logo').slideUp();
-  } else if (scrollUpDistance >= 100 || currentScroll <= 100) {
-    $('#main-header .logo').slideDown();
-  }
-});
+//   if (scrollDownDistance >= 200 && currentScroll > 100) {
+//     $('#main-header .logo').slideUp();
+//   } else if (scrollUpDistance >= 100 || currentScroll <= 100) {
+//     $('#main-header .logo').slideDown();
+//   }
+// });

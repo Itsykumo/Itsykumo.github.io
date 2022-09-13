@@ -11,6 +11,7 @@ https://rasen-m.github.io/
 Site is running and will be updated when appropriate.
 
 ### How do I get set up?
+
 Install Jekyll and Bundler gems on the development machine through RubyGems.
 ```bash
 gem install jekyll bundler
@@ -24,12 +25,15 @@ bundle install
 
 Build and serve the site on the preview server.
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 View the site at [http://127.0.0.1:4000/](http://127.0.0.1:4000/).
 
 Refer to the [Jekyll website](https://jekyllrb.com/) for more information.
 
-## Updating the site
-Instead of making changes locally and pushing to repository, changes can be introduce via [prose.io](http://prose.io). This approach lacks the preview option thou.
+## How do I make changes?
+
+Changes can be done locally on VS Code and pushing to repository.
+
+Alternatively, instead of making changes locally and pushing, changes can be introduce via [prose.io](http://prose.io). This approach lacks the preview option thou.
