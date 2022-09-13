@@ -8,13 +8,12 @@
 
 #main {
     min-height: 100vh;
-    // background-color: #3EE8A9;
-    background-color: #42F3B2;
+    background-color: $color-hero;
 }
 
 .inverse-highlight {
-    // background-color: black;
-    // color: white;
+    // background-color: $color-black;
+    // color: $color-white;
     font-weight: 500;
     // padding: 2px 8px;
 }
