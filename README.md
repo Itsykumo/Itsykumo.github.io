@@ -4,10 +4,7 @@
 
 Use as my personal website. Free hosting.
 
-<dl>
-    <dt style='display: inline-block'><strong>URL</strong></dt>
-    <dd style='display: inline-block'>https://rasen-m.github.io/</dd>
-</dl>
+https://rasen-m.github.io/
 
 ### What is the current state?
 
